@@ -8,7 +8,7 @@ pipeline {
                  sudo terraform init
                  sudo terraform plan
                  sudo terraform apply --auto-approve
-                 sudo terraform destory --auto-approve
+                 sudo terraform destroy --auto-approve
                  '''
             }
         }
